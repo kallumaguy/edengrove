@@ -1,14 +1,17 @@
 import './App.css'
-import { Outlet } from 'react-router-dom'
+import Layout from './layout/layout';
+
 
 function App() {
 
 
   return (
 
-    <Outlet />
+    <div className="App">
+      <Layout />
+    </div>
 
   )
 }
 
-export default App
+export default App;
